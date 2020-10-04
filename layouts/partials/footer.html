@@ -46,6 +46,15 @@
         </p>
         {{ end }}
 
+        {{ if $.Site.Params.contact.discord }}
+        <p class="footer__contact__item">
+            <span><i class="fab fa-discord"></i></span>
+            <a href="discord:{{ $.Site.Params.contact.discord }}" class="footer__contact__link" alt="Discord">
+                {{ $.Site.Params.contact.discord }}
+            </a>
+        </p>
+        {{ end }}
+
         {{ if $.Site.Params.contact.address }}
         <p class="footer__contact__item">
             <span><i class="fas fa-map-marker-alt"></i></span>
