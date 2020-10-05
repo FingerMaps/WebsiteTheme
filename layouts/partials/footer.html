@@ -59,16 +59,16 @@
         <p class="footer__contact__item">
             <span><i class="fab fa-reddit-alien"></i></span>
             <a href="reddit:{{ $.Site.Params.contact.alien }}" class="footer__contact__link" alt="Reddit">
-                {{ $.Site.Params.contact.discord }}
+                {{ $.Site.Params.contact.reddit }}
             </a>
         </p>
         {{ end }}
 
         {{ if $.Site.Params.contact.pmc }}
         <p class="footer__contact__item">
-            <span><i class="fab fa-globe-americas"></i></span>
+            <span><i class="fas fa-globe-americas"></i></span>
             <a href="pmc:{{ $.Site.Params.contact.pmc }}" class="footer__contact__link" alt="Planet Minecraft">
-                {{ $.Site.Params.contact.discord }}
+                {{ $.Site.Params.contact.pmc }}
             </a>
         </p>
         {{ end }}
