@@ -16,6 +16,6 @@
 	margin: 10px;
 }
 
-.minecraftia-font {
+.menu__items__item__link, .button, h1, h2, h3 {
 	font-family: 'MinecraftiaRegular';
 }
