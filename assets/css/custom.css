@@ -16,6 +16,6 @@
 	margin: 10px;
 }
 
-.menu__items__item__link, .button, h1, h2, h3 {
+.menu__items__item__link, .button, h1, h2, h3, .cta__btn {
 	font-family: 'MinecraftiaRegular';
 }
