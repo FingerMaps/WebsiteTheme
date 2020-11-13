@@ -70,6 +70,13 @@
             {{ $.Site.Params.contact.address }}
         </p>
         {{ end }}
+
+        {{ if $.Site.Params.contact.email }}
+        <p class="footer__contact__item">
+            <span><i class="fas fa-envelope"></i></span>
+            {{ $.Site.Params.contact.email }}
+        </p>
+        {{ end }}
     </address>
 
     <div class="copy">
