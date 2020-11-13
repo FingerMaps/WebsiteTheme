@@ -1,9 +1,9 @@
 {{ define "main" }}
 <article class="post">
     <header class="post__header">
-        <h1 class="post__title minecraftia-font">{{ .Title }}</h1>
+        <h1 class="post__title">{{ .Title }}</h1>
         {{ if .Description }}
-        <p class="post__subtitle minecraftia-font">{{ .Description }}</p>
+        <p class="post__subtitle">{{ .Description }}</p>
         {{ end }}
         {{ if ne .Type "page" }}
         {{ if and $.Site.Params.posts.showDate $.Site.Params.posts.showAuthor }}
