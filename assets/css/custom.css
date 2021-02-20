@@ -21,5 +21,6 @@
 }
 
 .installation-link {
+	display: block;
 	text-align: center;
 }
