@@ -19,3 +19,7 @@
 .menu__items__item__link, .button, h1, h2, h3, .cta__btn {
 	font-family: 'MinecraftiaRegular';
 }
+
+.installation-link {
+	text-align: center;
+}
