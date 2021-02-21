@@ -23,3 +23,9 @@
 .installation-link {
 	text-align: center;
 }
+
+.click-to-copy {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
