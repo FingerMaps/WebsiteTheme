@@ -34,6 +34,7 @@
 	border-color: var(--primary);
 	border-radius: 5px;
 	background: #c1c1c1;
+	cursor: pointer;
 }
 
 .date {
